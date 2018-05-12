@@ -1,0 +1,304 @@
+// VARIABLES
+
+// COLOUR - https://color.adobe.com/Optimist-color-theme-10737664/edit/?copy=true&base=3&rule=Custom&selected=2&name=Copy%20of%20Optimist&mode=rgb&rgbvalues=0.4235294117647059,0.43137254901960786,0.34509803921568627,0.24313725490196078,0.25882352941176473,0.22745098039215686,0.2549019607843137,0.45098039215686275,0.47058823529411764,0.6431372549019608,0.8117647058823529,0.7450980392156863,0.9568627450980393,0.9686274509803922,0.8509803921568627&swatchOrder=0,1,2,3,4
+$colour-primary-text: #F4F7D9;
+$color-secondary-text: #3E423A;
+$color-tertiary-text: #A4CFBE;
+$colour-nav-background: #6C6E58; 
+$color-square-background: rgba(62, 66, 58, 0.741);
+
+// FONT
+
+$font-primary: 'Raleway', sans-serif;
+
+// RESET
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-primary;
+}
+
+
+//GLOBAL
+.no-space {
+    padding: 0;
+    margin: 0;
+}
+
+.link-no-style {
+    text-decoration: none;
+}
+
+.complete-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.content-size-margin {
+    width: 88vw;
+    margin-left: 12vw;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+
+//ANGLES
+// .top-angle {
+//     padding:0;
+//     margin: -30vh 0 0 0;
+//     // margin: 0 0 0 12vw;
+//     border-left-width: 88vw;
+//     border-top-width: 185px;
+//     border-right-width: 0;
+//     border-bottom-width: 0;
+//     max-height: 0;
+//     border-style: solid solid solid dashed;
+
+// }
+
+// .bottom-angle {
+//     padding:0;
+//     margin: 0 0 0 12vw;
+//     border-width: 0 88vw 185px 0;
+//     border-style: solid solid solid none;
+
+// }
+
+// NAVBAR
+
+.main-nav {
+    z-index: 1;
+    width: 12vw;
+    background: $colour-nav-background; 
+    font-family: $font-primary;
+    position: fixed;
+    height: 100vh;
+    // margin-top: 0;
+    // margin-top: -100vh;
+    box-shadow: -1px 0px 20px 0px rgb(36, 36, 36);
+
+    .main-nav__title {
+        margin-bottom: 180px;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 5px;
+        // align-self: flex-start;
+    }
+}
+
+.main-nav__list {
+    // position: fixed;
+    margin: 6vh 0 0 0;
+    justify-content: flex-start;
+    // align-content: flex-start;
+    // border: 1px solid black;
+    list-style: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.main-nav__item {
+    padding-bottom: 20px;
+}
+
+.main-nav__link {
+    color: $colour-primary-text;
+}
+
+// IMAGE GRID
+
+.image-grid {
+    height: 100vh;
+    // width: 88vw;
+    padding: 0;
+    margin-left: 12vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.image-grid__square {
+    margin: 0;
+    padding: 0;
+    // background-image: url('../images/attemptedresumepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 22vw;
+    height: 33.3vh;
+    // border: none;
+    // background-attachment: fixed;
+  
+
+}
+
+.image-grid__square-info {
+    display: none;
+}
+
+.image-grid a:hover .image-grid__square-info {
+    display: block;
+    background-color: $color-square-background;
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    h3 {
+        text-align: center;
+        // border: 2px solid black;
+        color: $color-tertiary-text;
+        font-family: $font-primary;   
+    }
+}
+
+// // ABOUT
+
+.about {
+    // margin-top: 100vh;
+    height: 100vh;
+    margin-left: 12vw;
+    // margin-top: 0;
+    margin-bottom: 0;
+    // text-align: center;
+    background-color: white;
+    color: $color-secondary-text;
+    // position: absolute;
+    box-shadow: 3px 4px 20px 0px rgb(36, 36, 36);
+
+
+    // border: 2px solid black;
+    // background-color: black;
+    h2 {
+        // margin: 80 0 0 0;
+        padding-top: 80px;
+        margin-top: 0;
+        // margin: 45px 0 0 0;
+        font-weight: 900;
+        font-size: 35px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    hr {
+        width: 90px;
+        padding-top: 0;
+        text-align: center;
+    }
+    h3 {
+        font-weight: 600;
+        text-align: center;
+
+    }
+    p {
+        width: 80%;
+        margin: auto;
+        padding: 10px 0;
+        line-height: 25px;
+    }
+}
+
+.about-bottom-angle {
+    border-color: transparent #ffffff;
+    position: absolute;
+}
+
+// .parallax {
+//     z-index: -2;
+//     background-image: url('../images/hills.jpg');
+//     height: 130vh;
+//     // width: 89vw;
+//     // margin-top: -10vh;
+//     margin-left: 12vw;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-position: 100% -250px;
+//     // overflow: hidden;
+//     // position: fixed;
+// }
+
+// // RESUME 
+
+// .resume-top-angle{
+//     border-color: transparent #ffffff;
+ 
+// }
+
+
+// .resume__content {
+//     min-height: 100vh;
+//     background-color: white;
+//     margin-top: -20px;
+//     padding-bottom: 20px;
+// }
+
+// // CONTACT 
+
+
+.contact-bottom-angle {
+    // background-color: rgba(255, 255, 255, 0.7);
+    // height: 20vh;
+    border-color: rgba(255, 255, 255, 0.704) white;
+}
+
+.contact-info {
+    padding-top: 30vh;
+    background-color: rgba(255, 255, 255, 0.704);
+    height: 45vh;
+    color: $color-secondary-text;
+    // margin: auto;
+    text-align: center;
+    // margin-top: 30vh;
+    
+    p {
+        // text-align: center;
+        font-size: 20px;
+    }
+
+    .contact-info__icons {
+        // text-align: center;
+        
+        i{
+            margin-top: 20px;
+            font-size: 40px;
+        }
+    }
+}
+
+// .footer-link p {
+//     // text-align: center;
+//     margin-top: 9vh;
+//     // bottom: 5px;
+//     color: $colour-primary-text;
+//     font-size: 16px;
+// }
+
+.icon {
+    padding-left: 30px;
+
+}
+
+.contact-info__header {
+    margin-top: 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
