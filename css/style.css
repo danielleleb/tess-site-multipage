@@ -86,11 +86,38 @@ body {
   background-color: rgba(62, 66, 58, 0.741);
   height: 100%;
   width: 100%;
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   .image-grid a:hover .image-grid__square-info h3 {
+    max-width: 70%;
     text-align: center;
     color: #A4CFBE;
     font-family: "Raleway", sans-serif; }
+
+.img-2 {
+  background-position: 50%; }
+
+.img-3 {
+  background-position: bottom left; }
+
+.img-5 {
+  background-position: 50% 20%; }
+
+.img-6 {
+  background-position: 50% 90%; }
+
+.img-7 {
+  background-size: 150%;
+  background-position: right center; }
+
+.img-9 {
+  background-position: 50% 90%; }
+
+.img-10 {
+  background-position: bottom center; }
+
+.img-11 {
+  background-position: 50% 30%; }
 
 .about {
   height: 100vh;
@@ -147,3 +174,74 @@ body {
   font-weight: 900;
   font-size: 35px;
   letter-spacing: 3px; }
+
+.resume-background {
+  margin-left: 5vw;
+  width: 95vw;
+  height: 80vh;
+  background-image: url("../images/IMG_7909.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 78%; }
+
+.resume-title {
+  color: #3E423A;
+  width: 200px;
+  margin-top: -45px;
+  margin-left: 50.5%;
+  letter-spacing: 3px; }
+
+.resume {
+  color: #3E423A;
+  line-height: 25px;
+  margin: 0 30%;
+  width: 50%;
+  text-align: center; }
+  .resume h3 {
+    margin-top: 60px;
+    letter-spacing: 3px; }
+  .resume .education .education-content {
+    margin: 15px; }
+  .resume .education .education-content h4,
+  .resume .education .education-content p {
+    padding: 0;
+    margin: 0; }
+  .resume .education .education-year {
+    font-style: italic; }
+  .resume .experience .experience-content {
+    margin: 15px; }
+  .resume .experience .experience-content h4,
+  .resume .experience .experience-content p {
+    padding: 0;
+    margin: 2px; }
+  .resume .experience .experience-position {
+    font-weight: 600; }
+  .resume .experience .experience-city {
+    font-style: italic; }
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px; }
+  .skills .social-media {
+    width: 40%; }
+  .skills .skills-social-media {
+    display: flex;
+    flex-wrap: wrap; }
+    .skills .skills-social-media i {
+      width: 25%;
+      font-size: 40px; }
+
+.language p {
+  line-height: 10px; }
+
+.hidden-social-media {
+  display: none; }
+
+i:hover .hidden-social-media {
+  display: block;
+  background: rgba(128, 128, 128, 0.385);
+  padding: 4px;
+  border-radius: 4px;
+  margin-top: 2px;
+  font-size: 15px; }

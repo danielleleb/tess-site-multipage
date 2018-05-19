@@ -160,14 +160,58 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
 
     h3 {
+        max-width: 70%;
         text-align: center;
         // border: 2px solid black;
         color: $color-tertiary-text;
         font-family: $font-primary;   
+        // margin-bottom: 25px;
     }
 }
+
+.img-2{
+    // background-size: 100%;
+    background-position: 50%;
+}
+
+.img-3 {
+    background-position: bottom left;
+}
+
+.img-4{
+
+}
+
+.img-5 {
+    background-position: 50% 20%;
+}
+
+.img-6 {
+    background-position: 50% 90%;
+}
+
+.img-7 {
+    background-size: 150%;
+    background-position: right center;
+}
+
+
+.img-9 {
+    background-position: 50% 90%;
+}
+
+.img-10 {
+    background-position: bottom center;
+}
+
+.img-11 {
+    background-position: 50% 30%;
+    // background-size: contain;
+}
+
 
 // // ABOUT
 
@@ -301,4 +345,123 @@ body {
     font-weight: 900;
     font-size: 35px;
     letter-spacing: 3px;
+}
+
+// RESUME 
+.resume-background {
+    margin-left: 5vw;
+    width: 95vw;
+    height: 80vh;
+    background-image: url('../images/IMG_7909.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: 0 78%;
+    // color: $color-secondary-text;
+}
+
+.resume-title{
+    color: $color-secondary-text;
+
+    // margin: 0 30%;
+    // margin-top: 0;
+    // padding: auto;
+    width: 200px;
+    margin-top: -45px;
+    margin-left: 50.5%;
+    letter-spacing: 3px;
+}
+
+.resume {
+    color: $color-secondary-text;
+    line-height: 25px;
+    margin: 0 30%;
+    // display: flex;
+    width: 50%;
+    text-align: center;
+  
+    h3 {
+        margin-top: 60px;
+        letter-spacing: 3px;
+
+    }
+
+    .education {
+        .education-content {
+            margin: 15px;
+        }
+
+        .education-content h4, 
+        .education-content p {
+            padding: 0;
+            margin: 0;
+        }
+
+        .education-year {
+            font-style: italic;
+        }
+        // .education-year-city{
+        //     display: flex;
+        //     justify-content: space-around;
+        //     padding: 0 20px;
+        // }
+
+    }
+
+    .experience {
+        .experience-content {
+            margin: 15px;
+        }
+        .experience-content h4, 
+        .experience-content p {
+            padding: 0;
+            margin: 2px;
+        }
+
+        .experience-position {
+            font-weight: 600;
+        }
+
+        .experience-city {
+            font-style: italic;
+        }
+    }
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+    .social-media {
+        width: 40%;
+    }
+
+    .skills-social-media{
+        display: flex;
+        flex-wrap: wrap;
+        i {
+            width: 25%;
+            font-size: 40px;
+        }
+    }
+}
+
+.language p {
+   line-height: 10px;
+   h4{
+    //    margin-bottom: 10px;
+   }
+}
+
+.hidden-social-media {
+    display: none;
+}
+
+i:hover .hidden-social-media {
+    display: block;
+    background: rgba(128, 128, 128, 0.385);
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 2px;
+    font-size: 15px;
 }
