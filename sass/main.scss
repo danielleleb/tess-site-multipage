@@ -119,6 +119,10 @@ body {
     color: $colour-primary-text;
 }
 
+.portfolio-nav {
+    margin-top: -100vh;
+}
+
 // IMAGE GRID
 
 .image-grid {
@@ -217,7 +221,7 @@ body {
 
 .about {
     // margin-top: 100vh;
-    height: 100vh;
+    height: 98vh;
     margin-left: 12vw;
     // margin-top: 0;
     margin-bottom: 0;
@@ -296,16 +300,35 @@ body {
 // // CONTACT 
 
 
-.contact-bottom-angle {
-    // background-color: rgba(255, 255, 255, 0.7);
-    // height: 20vh;
-    border-color: rgba(255, 255, 255, 0.704) white;
+// .contact-bottom-angle {
+//     // background-color: rgba(255, 255, 255, 0.7);
+//     // height: 20vh;
+//     border-color: rgba(255, 255, 255, 0.704) white;
+// }
+
+.contact-background {
+    margin-left: 5vw;
+    width: 95vw;
+    height: 70vh;
+    background-image: url('../images/IMG_8094.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: 48px 60%;
 }
 
+.contact-info__header {
+  color: $colour-primary-text;
+    width: 200px;
+    margin-top: -45px;
+    margin-left: 51.5%;
+    letter-spacing: 3px;
+}
 .contact-info {
-    padding-top: 30vh;
+    // padding-top: 30vh;
+    min-height: 23vh;
+    margin-top: 7vh;
     background-color: rgba(255, 255, 255, 0.704);
-    height: 45vh;
+    // height: 45vh;
     color: $color-secondary-text;
     // margin: auto;
     text-align: center;
@@ -318,6 +341,9 @@ body {
 
     .contact-info__icons {
         // text-align: center;
+        a{
+            color: $color-secondary-text;
+        }
         
         i{
             margin-top: 20px;
@@ -326,26 +352,36 @@ body {
     }
 }
 
-// .footer-link p {
-//     // text-align: center;
-//     margin-top: 9vh;
-//     // bottom: 5px;
-//     color: $colour-primary-text;
-//     font-size: 16px;
-// }
+.footer-link p {
+    background-color: $color-secondary-text;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+    bottom: 0;
+    color: $colour-primary-text;
+    font-size: 14px;
+}
+footer {
+    bottom: 0;
+    position: relative;
+}
+.portfolio-footer {
+    margin-top: 100vh;
+}
 
 .icon {
     padding-left: 30px;
 
 }
 
-.contact-info__header {
-    margin-top: 0;
-    text-align: center;
-    font-weight: 900;
-    font-size: 35px;
-    letter-spacing: 3px;
-}
+// .contact-info__header {
+//     margin-top: 0;
+//     text-align: center;
+//     font-weight: 900;
+//     font-size: 35px;
+//     letter-spacing: 3px;
+// }
 
 // RESUME 
 .resume-background {

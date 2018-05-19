@@ -57,6 +57,9 @@ body {
 .main-nav__link {
   color: #F4F7D9; }
 
+.portfolio-nav {
+  margin-top: -100vh; }
+
 .image-grid {
   height: 100vh;
   padding: 0;
@@ -120,7 +123,7 @@ body {
   background-position: 50% 30%; }
 
 .about {
-  height: 100vh;
+  height: 98vh;
   margin-left: 12vw;
   margin-bottom: 0;
   background-color: white;
@@ -150,30 +153,55 @@ body {
   border-color: transparent #ffffff;
   position: absolute; }
 
-.contact-bottom-angle {
-  border-color: rgba(255, 255, 255, 0.704) white; }
+.contact-background {
+  margin-left: 5vw;
+  width: 95vw;
+  height: 70vh;
+  background-image: url("../images/IMG_8094.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 48px 60%; }
+
+.contact-info__header {
+  color: #F4F7D9;
+  width: 200px;
+  margin-top: -45px;
+  margin-left: 51.5%;
+  letter-spacing: 3px; }
 
 .contact-info {
-  padding-top: 30vh;
+  min-height: 23vh;
+  margin-top: 7vh;
   background-color: rgba(255, 255, 255, 0.704);
-  height: 45vh;
   color: #3E423A;
   text-align: center; }
   .contact-info p {
     font-size: 20px; }
+  .contact-info .contact-info__icons a {
+    color: #3E423A; }
   .contact-info .contact-info__icons i {
     margin-top: 20px;
     font-size: 40px; }
 
+.footer-link p {
+  background-color: #3E423A;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 0;
+  margin-top: 0;
+  bottom: 0;
+  color: #F4F7D9;
+  font-size: 14px; }
+
+footer {
+  bottom: 0;
+  position: relative; }
+
+.portfolio-footer {
+  margin-top: 100vh; }
+
 .icon {
   padding-left: 30px; }
-
-.contact-info__header {
-  margin-top: 0;
-  text-align: center;
-  font-weight: 900;
-  font-size: 35px;
-  letter-spacing: 3px; }
 
 .resume-background {
   margin-left: 5vw;
