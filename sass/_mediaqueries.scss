@@ -54,7 +54,13 @@
           text-align: center;
           margin-top: 3vh;
           letter-spacing: 3px;
-      }
+    }
+
+    .contact-info {
+        width: 90%;
+        margin: auto;
+        // text-align: center;
+    }
 
     .mobile-nav {
         background-color: $colour-nav-background;

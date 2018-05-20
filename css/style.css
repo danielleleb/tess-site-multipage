@@ -33,6 +33,9 @@
     text-align: center;
     margin-top: 3vh;
     letter-spacing: 3px; }
+  .contact-info {
+    width: 90%;
+    margin: auto; }
   .mobile-nav {
     background-color: #6C6E58;
     height: 10vh;
