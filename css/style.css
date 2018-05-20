@@ -1,3 +1,215 @@
+@media only screen and (max-width: 949px) {
+  .main-nav {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0; }
+  .main-nav-hidden {
+    display: none; }
+  .mobile-exit {
+    margin: 0; }
+  .image-grid {
+    width: 100vw;
+    margin-left: 0vw;
+    display: flex;
+    flex-direction: column; }
+  .image-grid__square {
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 90%;
+    margin: 1vh auto; }
+  .about {
+    height: auto; }
+  .resume-background {
+    display: none; }
+  .resume {
+    margin: auto;
+    width: 90%; }
+  .contact-background {
+    display: none; }
+  .contact-info__header {
+    color: #3E423A;
+    text-align: center;
+    margin-top: 3vh;
+    letter-spacing: 3px; }
+  .mobile-nav {
+    background-color: #6C6E58;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .mobile-nav a {
+      margin: 0;
+      text-decoration: none;
+      color: #F4F7D9; } }
+
+@media only screen and (min-width: 950px) {
+  .content-size-margin {
+    width: 88vw;
+    margin-left: 12vw; }
+  .mobile-nav {
+    display: none; }
+  .mobile-exit {
+    display: none; }
+  .main-nav-hidden {
+    display: block; }
+  .portfolio-nav {
+    margin-top: -100vh; }
+  .main-nav {
+    display: block;
+    z-index: 1;
+    width: 12vw;
+    background: #6C6E58;
+    font-family: "Raleway", sans-serif;
+    position: fixed;
+    box-shadow: -1px 0px 20px 0px #242424; }
+  .main-nav__list {
+    margin: 6vh 0 0 0;
+    list-style: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0; }
+  .main-nav__item {
+    padding-bottom: 20px; }
+  .main-nav__link {
+    color: #F4F7D9; }
+  .about {
+    height: 98vh;
+    margin-left: 12vw;
+    margin-top: 0;
+    margin-bottom: 0; }
+    .about h2 {
+      padding-top: 80px;
+      margin-top: 0; }
+  .image-grid {
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1; }
+  .image-grid__square {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 22vw;
+    height: 33.3vh; }
+  .image-grid__square-info {
+    display: none; }
+  .image-grid a:hover .image-grid__square-info {
+    display: block;
+    background-color: rgba(62, 66, 58, 0.741);
+    height: 100%;
+    width: 100%;
+    display: flex; }
+    .image-grid a:hover .image-grid__square-info h3 {
+      text-align: center;
+      color: #A4CFBE;
+      font-family: "Raleway", sans-serif; }
+  .portfolio-footer {
+    margin-top: 100vh; }
+  .resume-background {
+    margin-left: 5vw;
+    width: 95vw;
+    height: 80vh;
+    background-image: url("../images/IMG_7909.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 78%;
+    display: block; }
+  .resume-title {
+    color: #3E423A;
+    font-weight: 900;
+    margin-top: -45px;
+    letter-spacing: 3px; }
+  .resume {
+    color: #3E423A;
+    line-height: 25px;
+    margin: 0 30%;
+    width: 50%;
+    text-align: center; }
+    .resume h3 {
+      margin-top: 60px;
+      letter-spacing: 3px; }
+    .resume .education .education-content {
+      margin: 15px; }
+    .resume .education .education-content h4,
+    .resume .education .education-content p {
+      padding: 0;
+      margin: 0; }
+    .resume .education .education-year {
+      font-style: italic; }
+    .resume .experience .experience-content {
+      margin: 15px; }
+    .resume .experience .experience-content h4,
+    .resume .experience .experience-content p {
+      padding: 0;
+      margin: 2px; }
+    .resume .experience .experience-position {
+      font-weight: 600; }
+    .resume .experience .experience-city {
+      font-style: italic; }
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px; }
+    .skills .social-media {
+      width: 40%; }
+    .skills .skills-social-media {
+      display: flex;
+      flex-wrap: wrap; }
+      .skills .skills-social-media i {
+        width: 25%;
+        font-size: 40px; }
+  .language p {
+    line-height: 10px; }
+  .hidden-social-media {
+    display: none; }
+  i:hover .hidden-social-media {
+    display: block;
+    background: rgba(128, 128, 128, 0.385);
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 2px;
+    font-size: 15px; }
+  .contact-background {
+    margin-left: 5vw;
+    width: 95vw;
+    height: 70vh;
+    background-image: url("../images/IMG_8094.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 48px 60%;
+    display: block; }
+  .contact-info__header {
+    color: #F4F7D9;
+    width: 200px;
+    margin-top: -45px;
+    margin-left: 51.5%;
+    letter-spacing: 3px; }
+  .contact-info {
+    min-height: 23vh;
+    margin-top: 7vh;
+    background-color: rgba(255, 255, 255, 0.704);
+    color: #3E423A;
+    text-align: center; }
+    .contact-info p {
+      font-size: 20px; }
+    .contact-info .contact-info__icons a {
+      color: #3E423A; }
+    .contact-info .contact-info__icons i {
+      margin-top: 20px;
+      font-size: 40px; } }
+
 html {
   box-sizing: border-box; }
 
@@ -20,22 +232,21 @@ body {
   align-items: center;
   justify-content: center; }
 
-.content-size-margin {
-  width: 88vw;
-  margin-left: 12vw; }
-
 .underline {
   text-decoration: underline;
   text-decoration-style: double; }
 
+.mobile-exit {
+  margin: 20px 0 0 20px;
+  font-size: 35px;
+  font-weight: 900;
+  color: #F4F7D9; }
+
 .main-nav {
   z-index: 1;
-  width: 12vw;
   background: #6C6E58;
   font-family: "Raleway", sans-serif;
-  position: fixed;
-  height: 100vh;
-  box-shadow: -1px 0px 20px 0px #242424; }
+  position: fixed; }
   .main-nav .main-nav__title {
     margin-bottom: 180px;
     font-weight: 800;
@@ -43,10 +254,8 @@ body {
     letter-spacing: 5px; }
 
 .main-nav__list {
-  margin: 6vh 0 0 0;
   justify-content: flex-start;
   list-style: none;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   padding-left: 0; }
@@ -56,30 +265,6 @@ body {
 
 .main-nav__link {
   color: #F4F7D9; }
-
-.portfolio-nav {
-  margin-top: -100vh; }
-
-.image-grid {
-  height: 100vh;
-  padding: 0;
-  margin-left: 12vw;
-  display: flex;
-  flex-wrap: wrap;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: -1; }
-
-.image-grid__square {
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 22vw;
-  height: 33.3vh; }
 
 .image-grid__square-info {
   display: none; }
@@ -123,17 +308,11 @@ body {
   background-position: 50% 30%; }
 
 .about {
-  height: 98vh;
-  margin-left: 12vw;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   background-color: white;
-  color: #3E423A;
-  box-shadow: 3px 4px 20px 0px #242424; }
+  color: #3E423A; }
   .about h2 {
-    padding-top: 80px;
-    margin-top: 0;
     font-weight: 900;
-    font-size: 35px;
     letter-spacing: 3px;
     text-align: center; }
   .about hr {
@@ -149,29 +328,10 @@ body {
     padding: 10px 0;
     line-height: 25px; }
 
-.about-bottom-angle {
-  border-color: transparent #ffffff;
-  position: absolute; }
-
-.contact-background {
-  margin-left: 5vw;
-  width: 95vw;
-  height: 70vh;
-  background-image: url("../images/IMG_8094.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 48px 60%; }
-
-.contact-info__header {
-  color: #F4F7D9;
-  width: 200px;
-  margin-top: -45px;
-  margin-left: 51.5%;
-  letter-spacing: 3px; }
+.contact {
+  height: 84.5vh; }
 
 .contact-info {
-  min-height: 23vh;
-  margin-top: 7vh;
   background-color: rgba(255, 255, 255, 0.704);
   color: #3E423A;
   text-align: center; }
@@ -194,36 +354,21 @@ body {
   font-size: 14px; }
 
 footer {
+  height: 1vh;
   bottom: 0;
   position: relative; }
-
-.portfolio-footer {
-  margin-top: 100vh; }
 
 .icon {
   padding-left: 30px; }
 
-.resume-background {
-  margin-left: 5vw;
-  width: 95vw;
-  height: 80vh;
-  background-image: url("../images/IMG_7909.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 78%; }
-
 .resume-title {
   color: #3E423A;
-  width: 200px;
-  margin-top: -45px;
-  margin-left: 50.5%;
+  text-align: center;
   letter-spacing: 3px; }
 
 .resume {
   color: #3E423A;
   line-height: 25px;
-  margin: 0 30%;
-  width: 50%;
   text-align: center; }
   .resume h3 {
     margin-top: 60px;
