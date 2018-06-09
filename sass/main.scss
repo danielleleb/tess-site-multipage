@@ -39,9 +39,6 @@ body {
 }
 
 // NAVBAR
-
-
-
 .mobile-exit {
     margin: 20px 0 0 20px;
     font-size:35px;
@@ -51,6 +48,7 @@ body {
 
 .main-nav {
     z-index: 1;
+    // background: black;
     background: $colour-nav-background; 
     font-family: $font-primary;
     position: fixed;
@@ -85,21 +83,21 @@ body {
     display: none;
 }
 
-.image-grid a:hover .image-grid__square-info {
-    display: block;
-    background-color: $color-square-background;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+// .image-grid a:hover .image-grid__square-info {
+//     // display: block;
+//     background-color: $color-square-background;
+//     height: 100%;
+//     width: 100%;
+//     // display: flex;
+//     flex-direction: column;
 
-    h3 {
-        max-width: 70%;
-        text-align: center;
-        color: $color-tertiary-text;
-        font-family: $font-primary;   
-    }
-}
+//     h3 {
+//         max-width: 70%;
+//         text-align: center;
+//         color: $color-tertiary-text;
+//         font-family: $font-primary;   
+//     }
+// }
 
 .img-2{
     background-position: 50%;
@@ -136,7 +134,7 @@ body {
 }
 
 
-// // ABOUT
+// ABOUT
 
 .about {
     margin-bottom: 20px;
@@ -166,7 +164,7 @@ body {
     }
 }
 
-// // CONTACT 
+// CONTACT 
 
 .contact {
     height: 84.5vh;
